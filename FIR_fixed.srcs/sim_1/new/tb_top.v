@@ -35,7 +35,7 @@ module tb_top
     reg d_valid;
     
     wire signed [15:0] y;
-    wire [7:0] ch;
+    wire [3:0] ch;
     wire [15:0] cvt_y [num_of_ch-1:0];
     reg r_d_valid;
     wire done;
